@@ -1,0 +1,42 @@
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const multiply = (a, b) => a * b;
+grape
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+banana
+
+
+const reverseString = str => str.split("").reverse().join("");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+54,67,75,48,3,77,89,54,11,95,5,85,86,35,40,9,2,0,27,25,57,53,4,97 / kiwi
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+apple
+
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+kiwi
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+45,45,98,82,88,73,22,18,20,58,90,86,59,27,96,57,2,88,77,45,61,8,48,7,26,63,71,74,42,70,83,34,0,98,33,49,72,31,85,48,3,8,41,22,93,49,20,25,91,62,66,74,53,80,10,52,74,36,65,91,36,43,42,52,21,79,11,56,92,91,3,47,98,26,91,97,58,69,64,22,9,81,12,24,49,78,8,52,0,66,88,47,82,59,82,28,84,45 + 40
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+kiwi
+
+const getUniqueValues = array => [...new Set(array)];
+
+const capitalizeString = str => str.toUpperCase();
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+apple
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+kiwi
+
+console.log(getRandomString());
+const getRandomSubset = (array, size) => array.slice(0, size);
+
