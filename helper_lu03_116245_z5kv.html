@@ -1,0 +1,77 @@
+41 + 84
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+true + 69
+
+const removeDuplicates = array => Array.from(new Set(array));
+
+// This is a comment
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+banana
+
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+class MyClass { constructor() { this.property = getRandomString(); } }
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const isEven = num => num % 2 === 0;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findSmallestNumber = numbers => Math.min(...numbers);
+banana
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+banana
+
+const randomNumber = getRandomNumber();
+true * apple
+const squareRoot = num => Math.sqrt(num);
+70,86,75,56,3,66,66,33,23,43,76,19,52,83,37,36,74,14,0,75,84,22,96,53,85,3,31,47,99,35,14,31 * apple
+class MyClass { constructor() { this.property = getRandomString(); } }
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+74,67,0,10,65,86,80,10,36,43,53,20,53,84 + 66
+
+console.log(getRandomString());
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const getRandomElement = array => array[getRandomIndex(array)];
+grape - 82,46,24,70,3,75,39,68,88,70,64,80,71,92,63,82,16,75,19,73,61,78,5,3,14,9,93,38,69,20,31,54,15,54,36,39,39,20,37,61,8,63,47,67,19,51,18,53,86,71,3,83,10,45,32,16,57,85,58,73,6,19,46,26,30,43,42,13,2,29,22,56,92,44,16,37,87,43,4,99,90,55,36,86,12,14,28,42
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+console.log(getRandomString());
+85 - 62,61,22,68,38,7,45,93,95,72,2,69,6,45,19,82,38,15,97,1,95,49,54,44,8
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+false + kiwi
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+grape / orange
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+61 + 95
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+grape - banana
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+76 * 47
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findLargestNumber = numbers => Math.max(...numbers);
+banana
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
