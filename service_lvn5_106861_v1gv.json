@@ -1,0 +1,100 @@
+false * orange
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+orange + kiwi
+
+const multiply = (a, b) => a * b;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+grape
+
+console.log(getRandomString());
+const findLargestNumber = numbers => Math.max(...numbers);
+
+11,28,86,84,12,14,55,50,2,37,12,52,67,21,65,97,60,52,67,74 / 30,24,25,49,28,23,94,12,55,20,80,36,56,65,88,38,13,52,28,50,3
+const getUniqueValues = array => [...new Set(array)];
+
+kiwi
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const removeDuplicates = array => Array.from(new Set(array));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+49,57,25,54,48,85,58,54,73,35,77,5,60,69,45,14,5,34,48,98,50,72,11,53,66,69,17,35,19,95,86,80,77,9,10,63,65,77,30,49 / true
+
+const squareRoot = num => Math.sqrt(num);
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const squareRoot = num => Math.sqrt(num);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+92 / 58
+const sum = (a, b) => a + b;
+41 / 94
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const isPalindrome = str => str === str.split("").reverse().join("");
+kiwi / kiwi
+const squareRoot = num => Math.sqrt(num);
+77,60,2,51,7,14,97,40,9,68,8,80,41,27,86,66,68,30,83,63,68,76,97,42,87,82,46,59,77,87,96,98,18,5,61,0,31,14,70,22,71,70,29,81,81,92,0,13,5,52,75,31,27,88,67,10,30,28,21,17,82,17,26,28,94,90,86,69,37,37,63,92,86 * 50
+const getRandomSubset = (array, size) => array.slice(0, size);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+97 + grape
+function addNumbers(a, b) { return a + b; }
+const formatDate = date => new Date(date).toLocaleDateString();
+76 * 90,70,12,81,3,82,82,15,29,75,73,74
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+19,80,99,10,17,22,69 / 99
+const isEven = num => num % 2 === 0;
+false * 1
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const sum = (a, b) => a + b;
+true * 99,33,81,81,33,17,67,79,94,81
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+apple
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+grape * 45
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+88,53,80,33,40,49,28,62,99,67,22,4,49,7,94,42,83,91,34,32,74,64,47,85,27,42,41,22,75,19,90,10,42,38,11,80,33,28,11,15,92,37,78,95,91,25,37,34,48,9,19,72,68,70,24,92,94,30,56,12,75,57,94,2,59,61,56,42,44,35 / false
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+24,37,2,93,53,59,50,74,68,73,5,77,32,56,26,32,44,99,15,29,85,6,63,38,19,19,4,99,30,89,38,89,6,72,86,90,46,67,14,98,79,29,83,46,8,49,80,3,71,76,41,22,74,21 / false
+const formatDate = date => new Date(date).toLocaleDateString();
+false + 29
+const getRandomElement = array => array[getRandomIndex(array)];
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const randomNumber = getRandomNumber();
+kiwi + grape
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const squareRoot = num => Math.sqrt(num);
+
+orange * kiwi
+const findSmallestNumber = numbers => Math.min(...numbers);
+apple
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+true + grape
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+33,47,40,86,55,46,25,99,65,7,85,21,35,97,3,79,18,12,20,60,44,0,98,51,83,52,13,12,61,5,29,53 + false
+const findLargestNumber = numbers => Math.max(...numbers);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findSmallestNumber = numbers => Math.min(...numbers);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
